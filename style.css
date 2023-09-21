@@ -1,0 +1,236 @@
+*{
+    background: #fefcfa;
+    color: #444;
+    padding: 0;
+    margin: 0;
+    font-family: 'Ultra', serif;
+}
+.cv{
+    width: 70vw;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 40px 60px;
+    box-shadow: 0 2px 2px #00000024,0 3px 1px -2px #0003,0 1px 5px #0000001f;
+    border-radius: 2px;
+  
+}
+.header{
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 30px;
+}
+.header h1{
+    font-family: 'Dm Sans';
+    font-size: 30px;
+    color: #171B1B;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.header h2{
+    font-family: 'Oswald';
+    font-size: 20px;
+    color: #171B1B;
+    font-weight: 800;
+    padding-bottom: 40px;
+
+}
+.cv img{
+    border-radius: 35%;
+    height: 300px;
+    margin-bottom: 30px;
+}
+.contact{
+    display: flex;
+    padding-left: 75px;
+    margin: 45px 25px;
+    flex-direction: column;
+}
+ ul{
+    list-style: none;
+}
+.contact li{
+    font-family: 'DM Sans';
+    font-size: 17px;
+    line-height: 32px;
+    color: #171B1B;
+    font-weight: 600;
+}
+.contact a{
+    text-decoration: none;
+    font-family: 'DM Sans';
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(51, 51, 51, 0.496405);
+}
+ a:hover{
+    text-decoration: underline;
+}
+.generalInfo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 30px auto;
+    padding: 40px 10px;
+    border-bottom: 1px solid #ccc;
+
+}
+.generalInfo ul{
+    display: flex;
+}
+.generalInfoList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    width: 290px;
+    height: 48px;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+}
+.Skils{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+  
+
+}
+.Skils h2{
+   font-family: 'Oswald';
+    font-size: 20px;
+    color: #171B1B;
+    font-weight: 900;
+    padding-bottom: 40px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+} 
+.Skils h3{
+    font-family: 'Oswald';
+    font-size: 17px;
+    color: #171B1B;
+    font-weight: 900;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+.Skils ul{
+    list-style:circle;
+    padding-left: 105px;
+   
+}
+.Skils li, a{
+
+    font-family: 'DM Sans';
+    padding-bottom: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    /* line-height: 32px; */
+    /* color: rgba(51, 51, 51, 0.496405);
+    font-weight: 900; */
+    
+}
+.HSskills{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-top: 35px;
+    margin-bottom: 80px;
+ 
+}
+.hS{
+    width: 50%;
+    border-right: 1px solid #ccc;
+
+}
+.hl{
+    width: 50%;
+    padding-left: 40px;
+    flex-direction: column;
+   
+}
+.workGeneral{
+    margin-top: 30px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #ccc;
+}
+.workGeneral ul{
+    list-style:none;
+    padding-left: 105px;
+}
+.listStyle{
+    list-style:circle;
+    padding-left: 50px;
+}
+.workGeneral h2{
+    font-family: 'Oswald';
+    font-size: 20px;
+    color: #171B1B;
+    font-weight: 900;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: flex;
+}
+.workName{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Sans', sans-serif;
+    flex-direction: column;
+  
+}
+.workName h3{
+    font-family: 'Oswald';
+    font-size: 17px;
+    color: #171B1B;
+    font-weight: 900;
+    padding-left: 20px;
+    padding-top: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.workName h4{
+    font-family: 'Oswald';
+    font-size: 14px;
+    color: #171B1B;
+    font-weight: 900;
+    padding: 20px 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.projectDescription{
+    /* display: flex;
+    flex-wrap: wrap; */
+    padding-left: 11%;
+    white-space:pre-line;
+    /* font-weight: 800; */
+    font-family: 'DM Sans';
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 32px;
+    color: rgba(51, 51, 51, 0.496405);
+
+}
+
+@media(max-width: 800px)  {
+    .cv{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .generalInfoList{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
