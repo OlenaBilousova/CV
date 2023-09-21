@@ -132,7 +132,7 @@
     padding-left: 105px;
    
 }
-.Skils li, a{
+.Skils li {
 
     font-family: 'DM Sans';
     padding-bottom: 20px;
@@ -155,6 +155,16 @@
     width: 50%;
     border-right: 1px solid #ccc;
 
+}
+.hS a{
+  font-family: 'DM Sans';
+  font-size: 16px;
+  text-decoration: none;
+   color: rgba(51, 51, 51, 0.496405);
+  font-weight: 600; 
+}
+.hS a:hover{
+  text-decoration: underline;
 }
 .hl{
     width: 50%;
